@@ -14,7 +14,7 @@ class htmlStoreClass {
   public whatsNext: Array<htmlClass>
   constructor() {
     this.ecosystem = new Array<htmlClass>()
-    this.ecosystem.push(new htmlClass('vuetify-loader','https://github.com/vuetifyjs/vuetify-loader'))
+    this.ecosystem.push(new htmlClass('vuetify-loaderA','https://github.com/vuetifyjs/vuetify-loader'))
     this.ecosystem.push(new htmlClass('github','https://github.com/vuetifyjs/vuetify'))
     this.ecosystem.push(new htmlClass('awesome-vuetify','https://github.com/vuetifyjs/awesome-vuetify'))
     this.importantLinks = new Array<htmlClass>()
